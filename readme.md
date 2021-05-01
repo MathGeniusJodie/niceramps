@@ -6,11 +6,17 @@ a color ramp generator for design systems
 the two main ways of mixing colors are to treat colors like paint or like ink.
 
 to get a ramp of lightess values, you can either mix with white or black paint like so:
+
 ![paint](https://raw.githubusercontent.com/MathGeniusJodie/niceramps/main/paint.png)
+
 or vary the concentration of ink like so:
+
 ![ink](https://raw.githubusercontent.com/MathGeniusJodie/niceramps/main/ink.png)
+
 the results of either don't look too pleasing, but a combination of the two methods looks perfect:
+
 ![mix](https://raw.githubusercontent.com/MathGeniusJodie/niceramps/main/mix.png)
+
 ## functions
 ```js
 const {colorAtLightness, ramp, tailwindRamp} = require("niceramps");
