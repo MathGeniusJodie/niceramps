@@ -1,0 +1,15 @@
+{
+	"name": "niceramps",
+	"version": "0.0.0",
+	"description": "a color ramp generator for design systems",
+	"repository": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx prettier --use-tabs --write ./*.js*"
+	},
+	"contributors": [
+		"Jodie <https://github.com/MathGeniusJodie>"
+	],
+	"license": "BSDO",
+	"dependencies": {}
+}
