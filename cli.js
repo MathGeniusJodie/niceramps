@@ -2,7 +2,7 @@
 
 const {
 	ramp,
-	tailwinRamp,
+	tailwindRamp,
 	colorAtLightness,
 	namedColors,
 	termColorString,
@@ -35,7 +35,7 @@ args.forEach((arg) => {
 		optionArgs.push(arg.substring(2));
 	}
 	if (arg.substring(0, 2) === "-t") {
-		generator = tailwinRamp;
+		generator = tailwindRamp;
 	}
 });
 
