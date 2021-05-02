@@ -51,7 +51,7 @@ this package includes a command line utility in cli.js
 ### usage
 
 ```sh
-./cli.js '#d972d6' --increment=10 --saturation=1
+npx niceramps '#d972d6' --increment=10 --saturation=1
 ```
 
 add the `-t` flag to generate tailwindcss colors
