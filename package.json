@@ -4,6 +4,7 @@
 	"description": "a color ramp generator for design systems",
 	"repository": "https://github.com/MathGeniusJodie/niceramps",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"build": "npx prettier --use-tabs --write ./*.js*"
 	},
